@@ -315,6 +315,43 @@ body {
     color: #727272;
     text-align: center;
 }
+
+                    /* our sponsor styles */
+
+.our-sponsors {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.sponsor-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sponsor-description {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponsor-images {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.sponsor-image img {
+    width: 100px;
+    height: auto;
+}
+
 /*------------------------------------------------------------------------------
                             footer styles start
 --------------------------------------------------------------------------------*/
