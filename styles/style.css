@@ -261,6 +261,15 @@ body {
     height: auto;
 }
 
+.like .big {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.like .medium {
+    font-size: 15px;
+}
+
                 /* some-facts styles */
 
 .some-facts {
@@ -394,7 +403,7 @@ body {
     /* header section */
     
     .hide{
-        display:none;
+        display: none;
     }
 
     .header {
@@ -451,7 +460,7 @@ body {
     }
 
     .feature-description {
-        width: 90%;
+        width: 80%;
         margin: 0 30px;
     }
 
@@ -468,7 +477,63 @@ body {
         height: auto;
     }
 
+    /* likeable features */
+
+    .likeable-features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .likeable-title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .likeable-info {
+        text-align: center;
+        margin: auto;
+    }
+
+    .likeable-box {
+        margin: 25px auto;
+    }
+
+    .likeable-image {
+        /* border: 3px dashed; */
+        position: static;
+        width: 90%;
+        height: auto;
+    }
     
+    .likeable-image img {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .likeable-image .like {
+        position: static;
+        margin: auto;
+        padding: 10px 5px;
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .like .big {
+        font-size: 15px;
+    }
+
+    .like .medium {
+        font-size: 10px;
+    }
 
 
 }
