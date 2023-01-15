@@ -388,3 +388,58 @@ body {
 /*------------------------------------------------------------------------------
                             responsive styles
 --------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 567px) {
+
+    /* header section */
+    
+    .hide{
+        display:none;
+    }
+
+    .header {
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        margin: auto;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .nav-btns {
+        padding: 0px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .nav-btn {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .head {
+        margin-top: 30px;
+    }
+
+    .head-title {
+        width: 90%;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .head-info {
+        /* border: 1px solid; */
+        width: 90%;
+        height: 100px;
+        font-size: 15px;
+    }
+
+    /* main section */
+
+    
+
+}
