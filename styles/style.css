@@ -138,7 +138,7 @@ body {
 /*-------------------------------------------------------------------------------
                                 main styles end
 ---------------------------------------------------------------------------------*/
-/* features section styles */
+                /* features section styles */
 
 .features {
     /* border: 3px dashed; */
@@ -184,7 +184,7 @@ body {
     margin: 0px;
 }
 
-/* likable features section */
+                /* likable features section */
 .likeable-features {
     /* border: 3px solid; */
     display: flex;
@@ -263,7 +263,58 @@ body {
     height: auto;
 }
 
+                /* some-facts styles */
 
+.some-facts {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.fact-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0 0 0;
+}
+
+.fact-box {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    padding: 50px 0 0 0;
+}
+
+.fact-box img {
+    display: block;
+    margin: auto;
+}
+
+.fact-box h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+    text-align: center;
+}
+
+.fact-box p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+    text-align: center;
+}
 /*------------------------------------------------------------------------------
                             footer styles start
 --------------------------------------------------------------------------------*/
