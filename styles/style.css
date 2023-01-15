@@ -502,7 +502,6 @@ body {
     }
 
     .likeable-image {
-        /* border: 3px dashed; */
         position: static;
         width: 90%;
         height: auto;
@@ -570,5 +569,43 @@ body {
         padding: 50px 0 0 0;
         margin-bottom: 20px;
     }
+
+    /* our sponsors responsive */
+
+    .our-sponsors {
+        width: 90%;
+        margin-top: 40px;
+    }
+    
+    .sponsor-title {
+        font-size: 35px;
+    }
+    
+    .sponsor-description {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .sponsor-images {
+        flex-direction: column;
+        margin: 20px 0 0 0;
+    }
+
+    .sponsor-image img {
+        width: 95%;
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    /* footer section responsive */
+
+    .footer {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        height: 80px;
+    }
+
 
 }
