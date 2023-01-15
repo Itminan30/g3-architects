@@ -276,6 +276,15 @@ body {
     width: 200px;
     height: 200px;
     padding: 50px 0 0 0;
+    transition: width 0.5s;
+}
+
+.fact-box:hover {
+    width: 250px;
+    height: auto;
+    background-color: #ff8f0ecf;
+    color: white;
+    transform: rotate3d(1,1,1,3deg);
 }
 
 .fact-box img {
