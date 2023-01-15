@@ -115,7 +115,7 @@ body {
 }
 
 .head-image img {
-    width: 1080px;
+    width: 80%;
     height: auto;
     display: block;
     margin: auto;
@@ -155,8 +155,8 @@ body {
 
 .feature-images img {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: auto;
 }
 
 .feature-description {
@@ -244,7 +244,8 @@ body {
     top: 50px;
     right: 0;
     position: absolute;
-    width: 550px;
+    /* width: 550px; */
+    width: 90%;
     height: auto;
 }
 
@@ -255,7 +256,8 @@ body {
     bottom: 10px;
     padding: 15 5px;
     display: block;
-    width: 230px;
+    /* width: 230px; */
+    width: 40%;
     height: auto;
 }
 
